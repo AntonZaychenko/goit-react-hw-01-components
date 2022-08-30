@@ -1,0 +1,29 @@
+.item {
+    display: flex;
+    margin-bottom: 15px;
+    box-shadow: 10px 5px 5px gray;
+    width: 200px;
+    padding: 5px 10px;
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+}
+.online {
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.ofline {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.name {
+    margin-left: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
